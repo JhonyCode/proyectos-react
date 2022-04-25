@@ -1,0 +1,8 @@
+.fondo{
+    background-color: blanchedalmond;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
