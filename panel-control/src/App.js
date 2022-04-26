@@ -1,12 +1,9 @@
-import {Login} from './components/Login'
-import {PanelControl} from './components/PanelControl'
+import { PanelControl } from "./components/PanelControl";
+import {Autenticacion} from"./components/Autenticacion";
 function App() {
-  const isLoggedIn = false;
-  return (
-    <div>
-    {isLoggedIn ? <PanelControl/> : <Login/>}
-    </div>
-  );
+  return <Autenticacion>
+    <PanelControl/>
+  </Autenticacion>
 }
 
 export default App;
