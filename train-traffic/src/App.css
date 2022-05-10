@@ -1,0 +1,26 @@
+.red{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-color: red;
+}
+
+.orange{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.green{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: green;
+}
+.off{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+}

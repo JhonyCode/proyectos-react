@@ -1,0 +1,57 @@
+.bombilla {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: black;
+}
+.red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.green {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.orange {
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.off{
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.blue{
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.pink{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: pink;
+}
+.white{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+}
