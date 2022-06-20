@@ -1,26 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+body {
   margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Roboto', sans-serif;
-font-weight: 700;
 }
 
 .pages{
-  height: 80vh;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
   font-size: 40px;
 }
+.loginreg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
+}
 .navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 7%;
-  background-color: rgb(108, 61, 61);
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 .bars-button{
@@ -43,7 +52,7 @@ font-weight: 700;
 
 .links a{
   text-decoration: none;
-  color: #FFF;
+  color:black;
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: 400;
@@ -59,13 +68,18 @@ left: 0;
 right: 0;
 width: 100%;
 height: 2px;
-background-color: #FFF;
+background: #43C6AC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+border-radius: 10px;
 transition: all .8s ease ;
 }
 .links a:hover{
-  color: rgb(108, 61, 61);
+  color: black;
   z-index: 1;
   transition: all .8s ease;
+  font-weight: 600;
 }
 .links a:hover::after{
   height: 80%;
@@ -94,7 +108,10 @@ transition: all .8s ease ;
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgb(108, 61, 61);
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     align-items: center;
     justify-content: center;
   }
@@ -124,4 +141,28 @@ transform: rotate(-45deg);
 position: absolute;
 transform: rotate(45deg);
   }
+}
+
+.sidebar{
+  padding: 1rem 2rem;
+  border-bottom: 2px solid gray;
+  font-size: 20px;
+}
+.sidebars{
+  width: 14rem;
+  height: calc(100vh - 52px);
+  font-size: 20px;
+  border-right: 2px solid grey;
+}
+.sidebars ul {
+  list-style: none;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+.sidebars li {
+  padding: .5rem;
+}
+
+.sidebars a{
+  text-decoration: none;
 }
